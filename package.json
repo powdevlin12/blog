@@ -1,0 +1,31 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "first nodejs",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tranthudat2k1/blog.git"
+    },
+    "keywords": [
+        "f8",
+        "blog",
+        "nodejs"
+    ],
+    "author": "Dat Tran",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tranthudat2k1/blog/issues"
+    },
+    "homepage": "https://github.com/tranthudat2k1/blog#readme",
+    "dependencies": {
+        "express": "^4.17.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
